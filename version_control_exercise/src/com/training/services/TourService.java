@@ -12,4 +12,8 @@ public class TourService {
 		}
 		return statusCode;
 	}
+	
+	public int updateTour(Tour tour) {
+		return 198;
+	}
 }
