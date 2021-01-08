@@ -12,13 +12,4 @@ public class TourService {
 		}
 		return statusCode;
 	}
-	
-	public int changeTour(Tour tour) {
-		
-		int statusCode = 0;
-		if(tour != null) {
-			statusCode = 1;
-		}
-		return statusCode;
-	}
 }
