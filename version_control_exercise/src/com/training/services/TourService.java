@@ -13,7 +13,7 @@ public class TourService {
 		return statusCode;
 	}
 	
-	public int update(Tour tour) {
+	public int updateTour(Tour tour) {
 		return 1;
 	}
 }
