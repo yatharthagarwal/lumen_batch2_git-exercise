@@ -6,10 +6,10 @@ public class TourService {
 
 	public int addTour(Tour tour) {
 		
-		int status = 0;
+		int statusCode = 0;
 		if(tour != null) {
-			status = 1;
+			statusCode = 1;
 		}
-		return status;
+		return statusCode;
 	}
 }
